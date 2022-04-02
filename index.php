@@ -1,5 +1,5 @@
 <?php
-$dbhost = 'remotemysql.com:3306';
+$dbhost = 'remotemysql.com';
 $dbuser = 'BS1CwOyLI0';
 $dbpass = 'S9h6V3fRuz';
 $dbname = 'BS1CwOyLI0';
