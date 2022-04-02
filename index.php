@@ -1,3 +1,24 @@
+<?php
+
+$host = 'remotemysql.com';
+$user = 'BS1CwOyLI0';
+$pass = 'S9h6V3fRuz';
+$db = 'BS1CwOyLI0';
+$charset = 'utf8mb4';
+
+
+$dsn = "mysql: host = $host; dbname = $db; charset = $charset";
+
+
+try{
+    $pdo = new PDO($dsn, $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}catch(PDOException $e){
+    throw new PDOException($e->getMessage());
+    
+}
+
+?>
 <!DOCTYPE html>
 
 <html lang = "en">
@@ -23,10 +44,7 @@
 </head>
 
 <body>
-    <?php
-
-    ?>
-
+    
     <h1 id = "log_label">Login</h1> 
     <br>
 
