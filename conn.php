@@ -42,18 +42,17 @@ $dsn = "mysql: host = $host; dbname = $db; charset = $charset";
 
 */
 //PHP Code - getdb.php
-
-   $utext = $_REQUEST["user"];
+  $utext = $_REQUEST["user"];
    $ptext = $_REQUEST["pass"];
    $flag = false;
  
-   $hostname = "127.0.0.1";
-   $username = "root";
-   $password = "";
+   $hostname = "49.36.105.32";
+   $username = "BS1CwOyLI0";
+   $password = "S9h6V3fRuz";
  
    $con = mysqli_connect($hostname, $username, $password) or die(mysql_error());
-   mysqli_select_db($con, "clg_db") or die(mysql_error());
-   $result = mysqli_query($con, "select * from sample_table") or die(mysql_error());
+   mysqli_select_db($con, "BS1CwOyLI0") or die(mysql_error());
+   $result = mysqli_query($con, "select * from myUsers") or die(mysql_error());
  
    while($x = mysqli_fetch_array($result))
    {
