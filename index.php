@@ -1,4 +1,17 @@
+<?php
+$dbhost = 'remotemysql.com:3306';
+$dbuser = 'BS1CwOyLI0';
+$dbpass = 'S9h6V3fRuz';
+$dbname = 'BS1CwOyLI0';
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
+if(! $conn ) {
+   die('Could not connect: ' . mysqli_error());
+}
+echo 'Connected successfully';
+mysqli_close($conn);
+
+?>
 <!DOCTYPE html>
 
 <html lang = "en">
