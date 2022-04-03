@@ -1,9 +1,10 @@
+
 <html>
    <head>
       <title>Login Form</title>
    </head>
    <body>
-      <form action="conn.php" method="get">
+      <form action="list_page.php" method="get">
          <label>Username: </label>
          <input type="text" name="user" /><br />
          <label>Password: </label>
