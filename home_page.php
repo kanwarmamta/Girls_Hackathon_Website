@@ -48,7 +48,7 @@ if ($_SESSION["class"]=="jee"){
         <a href="books.html">Books</a>
         <a href=<?php echo $pyq; ?>>PYQ's</a>
         <a href=<?php echo $qbank; ?>>Question Bank</a>
-        <a href="doubt_page.php">Doubt Section</a>
+        <a href="submission.php">Doubt Section</a>
       
         <a href="contact_us.html">Contact Us</a>
     </nav>
