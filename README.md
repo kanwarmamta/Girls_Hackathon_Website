@@ -1,4 +1,4 @@
-# Google girl hackathon 2022 projetc
+# Google girl hackathon 2022 project
 Hackathon repository
 Developed a website that centralized academic resources, enabling colleges and students to
 effortlessly access curated content, resolve study-related queries, access books, and receive real-time doubt-solving.
